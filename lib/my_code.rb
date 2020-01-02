@@ -13,7 +13,7 @@ def reduce(array, start = 0)
   total = start
   result = true
   while index < array.length do
-    if array[index == false] do
+    if array[index] === false
       result = false
     end
     total += array[index]
