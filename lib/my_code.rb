@@ -9,11 +9,11 @@ def map(element)
 end
 
 def reduce(array, start = 0)
-  strt_pt = start
-  total = 0
-  while strt_pt < array.length do
+  index = 0
+  total = start
+  while index < array.length do
     total += array[strt_pt]
-    strt_pt += 1
+    index += 1
   end
   total
 end
