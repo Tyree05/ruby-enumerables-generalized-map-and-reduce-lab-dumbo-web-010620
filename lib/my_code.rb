@@ -1,3 +1,5 @@
-def map(array)
-  yield(array)
+def map(element)
+
+
+
 end
