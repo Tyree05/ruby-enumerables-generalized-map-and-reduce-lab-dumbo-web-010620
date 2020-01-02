@@ -9,7 +9,7 @@ def map(element)
 end
 
 def reduce(array, start = nil)
-  if start
+  if start === true
     total = start
   end
   index = 0
