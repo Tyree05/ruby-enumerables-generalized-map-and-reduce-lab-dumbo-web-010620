@@ -8,17 +8,15 @@ def map(element)
     array_new
 end
 
-def reduce(array, start = 0)
+def reduce(array, start = nil)
+  if start
+    total = start
+  end
   index = 0
-  total = start
   result = true
   while index < array.length do
-    if array[index] === false
-      result = false
-    end
     total += array[index]
     index += 1
   end
   total
-  return result
 end
