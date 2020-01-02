@@ -7,3 +7,4 @@ def map(element)
     end
     array_new
 end
+
