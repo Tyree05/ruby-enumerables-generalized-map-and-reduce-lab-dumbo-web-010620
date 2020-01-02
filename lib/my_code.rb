@@ -12,7 +12,7 @@ def reduce(array, start = 0)
   index = 0
   total = start
   while index < array.length do
-    total += array[strt_pt]
+    total += array[index]
     index += 1
   end
   total
