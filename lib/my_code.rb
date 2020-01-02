@@ -11,6 +11,8 @@ end
 def reduce(array, start = nil)
   if start === true
     total = start
+  else
+    total = 0
   end
   index = 0
   while index < array.length do
