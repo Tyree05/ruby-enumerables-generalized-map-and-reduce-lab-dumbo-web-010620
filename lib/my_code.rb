@@ -1,3 +1,3 @@
-def map(array, block)
-  yield (array)
+def map(array)
+  yield(array)
 end
