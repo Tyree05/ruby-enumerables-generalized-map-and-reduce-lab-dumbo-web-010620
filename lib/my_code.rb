@@ -9,12 +9,13 @@ def map(element)
 end
 
 def reduce(array, start = nil)
-  if start === true
+  if start
     total = start
+    index = 0
   else
-    total = 0
+    total = array[0]
+    index = 1
   end
-  index = 0
   while index < array.length do
     total += array[index]
     index += 1
